@@ -1,0 +1,9 @@
+server:
+  port: 8761
+eureka:
+  client:
+    register-with-eureka: false # 是否將自己的信息註冊到eureka服務器
+    fetch-registry: false # 是否到eureka服務器中抓取註冊信息
+logging:
+  level:
+    com.netflix: INFO
