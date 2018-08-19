@@ -10,17 +10,20 @@ import org.springframework.web.bind.annotation.PathVariable;
  * <p>
  * Created by nathan.z on 2018/8/4.
  */
-@FeignClient(value = "provider", fallback = HystrixClientFallback.class)
+@FeignClient(value = "provider", fallback = HystrixClient.HystrixClientFallback.class)
 public interface HystrixClient {
 
     @GetMapping("/timeoutReq/{milliseconds}")
     public String timeoutReq(@PathVariable("milliseconds") int milliseconds) ;
 
+    @Component
+    class HystrixClientFallback implements HystrixClient {
+        @Override
+        public String timeoutReq(int milliseconds) {
+            return "timeoutReq failure!!!";
+        }
+    }
+
 }
 
-class HystrixClientFallback implements HystrixClient {
-    @Override
-    public String timeoutReq(int milliseconds) {
-        return "timeoutReq failure!!!";
-    }
-}
+

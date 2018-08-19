@@ -10,17 +10,20 @@ import org.springframework.web.bind.annotation.PathVariable;
  * <p>
  * Created by nathan.z on 2018/8/2.
  */
-@FeignClient(value = "provider", fallback = HelloClientFallback.class)
+@FeignClient(value = "provider", fallback = HelloClient.HelloClientFallback.class)
 public interface HelloClient {
 
     @GetMapping("/greeting/{name}")
     String sayHello(@PathVariable(value = "name", required = false) String name);
 
+    @Component
+    class HelloClientFallback implements HelloClient {
+        @Override
+        public String sayHello(String name) {
+            return "failure!!!";
+        }
+    }
+
 }
 
-class HelloClientFallback implements HelloClient {
-    @Override
-    public String sayHello(String name) {
-        return "failure!!!";
-    }
-}
+

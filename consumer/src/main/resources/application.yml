@@ -11,7 +11,6 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
 
 
-
 #hystrix:
 #  command:
 #    HystrixClient#timeoutReq() :
@@ -28,6 +27,15 @@ eureka:
 feign:
   hystrix:
     enabled: true
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 500
+      circuitBreaker:
+        requestVolumeThreshold: 3
 
 ## 配置hystrix
 #hystrix:
