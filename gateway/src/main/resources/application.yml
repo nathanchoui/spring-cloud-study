@@ -1,6 +1,6 @@
 spring:
   application:
-    name: provider
+    name: gateway
 eureka:
   instance:
     hostname: localhost
@@ -11,4 +11,9 @@ logging:
   level:
     com.netflix: DEBUG
 server:
-  port: 9001
+  port: 8888
+zuul:
+  routes:
+    provider:
+      path: /provider/**
+      serviceId: provider

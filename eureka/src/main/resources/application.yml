@@ -7,3 +7,6 @@ eureka:
 logging:
   level:
     com.netflix: INFO
+spring:
+  application:
+    name: eureka
