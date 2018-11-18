@@ -1,12 +1,17 @@
 server:
   port: 8761
 eureka:
+  instance:
+    hostname: localhost
   client:
-    register-with-eureka: false # 是否將自己的信息註冊到eureka服務器
-    fetch-registry: false # 是否到eureka服務器中抓取註冊信息
-logging:
-  level:
-    com.netflix: INFO
+    fetch-registry: false
+    register-with-eureka: false # 是否到eureka服務器中抓取註冊信息
+  server:
+    wait-time-in-ms-when-sync-empty: 0
+    enable-self-preservation: false
+#logging:
+#  level:
+#    com.netflix: INFO
 spring:
   application:
     name: eureka
