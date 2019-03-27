@@ -11,7 +11,11 @@
         <module name="eureka" />
         <module name="gateway" />
         <module name="provider" />
+        <module name="service-protocol" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ServiceProtocol" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

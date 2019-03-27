@@ -1,8 +1,10 @@
 server:
-  port: 9000
+  port: 9003
 spring:
   application:
     name: consumer
+  main:
+    allow-bean-definition-overriding: true
 eureka:
   instance:
     hostname: localhost
@@ -23,10 +25,14 @@ eureka:
 
 
 
-## 打开feign对hystrix的支持
 feign:
   hystrix:
-    enabled: true
+    enabled: true # 打开feign对hystrix的支持
+  compression:
+    request:
+      enabled: false # 是否对request开启压缩
+    response:
+      enabled: false # 是否对response开启压缩
 hystrix:
   command:
     default:

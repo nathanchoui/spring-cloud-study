@@ -6,6 +6,8 @@ eureka:
   client:
     fetch-registry: false
     register-with-eureka: false # 是否到eureka服務器中抓取註冊信息
+  #    service-url:
+  #      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
   server:
     wait-time-in-ms-when-sync-empty: 0
     enable-self-preservation: false

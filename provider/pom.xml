@@ -16,6 +16,10 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
+        <dependency>
+            <groupId>personal.nathan</groupId>
+            <artifactId>service-protocol</artifactId>
+        </dependency>
     </dependencies>
 
 </project>

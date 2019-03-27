@@ -1,0 +1,17 @@
+#spring:
+#  application:
+#    name: eureka-server3
+#  profiles: peer3
+#server:
+#  port: 8763
+#eureka:
+#  instance:
+#    hostname: localhost
+#  client:
+#    fetch-registry: true
+#    register-with-eureka: true # 是否到eureka服務器中抓取註冊信息
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka,http://localhost:8762/eureka
+#  server:
+#    wait-time-in-ms-when-sync-empty: 0
+#    enable-self-preservation: false

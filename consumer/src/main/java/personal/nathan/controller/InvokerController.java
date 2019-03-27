@@ -1,7 +1,8 @@
-package nathan;
+package personal.nathan.controller;
 
-import com.netflix.hystrix.HystrixCircuitBreaker;
-import com.netflix.hystrix.HystrixCommandKey;
+import org.springframework.web.bind.annotation.RequestParam;
+import personal.nathan.provider.hello.domain.User;
+import personal.nathan.remoteInvoke.HelloClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -13,9 +14,6 @@ public class InvokerController {
 	@Autowired
 	private HelloClient helloClient;
 
-	@Autowired
-	private HystrixClient hystrixClient;
-
 	@GetMapping("/greeting/{name}")
 	public String welcome(@PathVariable("name") String name) {
 		return helloClient.sayHello(name);
@@ -26,6 +24,12 @@ public class InvokerController {
 //		HystrixCircuitBreaker breaker = HystrixCircuitBreaker.Factory
 //				.getInstance(HystrixCommandKey.Factory.asKey("HystrixClient#timeoutReq()"));
 //		System.out.println("断路器状态：" + breaker.isOpen());
-		return hystrixClient.timeoutReq(milliseconds);
+		return helloClient.timeoutReq(milliseconds);
 	}
+
+	@GetMapping("/hello")
+	public String sayHelloWithUser(@RequestParam("id") long id, @RequestParam("name") String name) {
+		return helloClient.sayHelloWithUser(new User(id, name));
+	}
+
 }
