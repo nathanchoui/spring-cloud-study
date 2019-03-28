@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8af10678-bd7a-4d77-874e-92239c10763d" name="Default" comment="update">
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/ribbon核心.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/ribbon/ribbon核心接口.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/ribbon/ribbon自定义.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/personal/nathan/inteceptor/FeignRequestInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/personal/nathan/inteceptor/FeignRequestInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/ribbon核心.md" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/resources/ribbon/ribbon核心.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/personal/nathan/Gateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/personal/nathan/ZuulGateway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,40 +57,43 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="10" />
+          <entry key="class" value="11" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="68" />
-          <entry key="md" value="3" />
+          <entry key="java" value="76" />
+          <entry key="loadbalancer" value="1" />
+          <entry key="md" value="4" />
           <entry key="txt" value="2" />
-          <entry key="xml" value="17" />
-          <entry key="yml" value="16" />
+          <entry key="uml" value="1" />
+          <entry key="xml" value="20" />
+          <entry key="yml" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="10" />
-          <entry key="JAVA" value="68" />
-          <entry key="Markdown" value="3" />
+          <entry key="CLASS" value="11" />
+          <entry key="JAVA" value="76" />
+          <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="XML" value="17" />
-          <entry key="YAML" value="16" />
+          <entry key="UML" value="2" />
+          <entry key="XML" value="20" />
+          <entry key="YAML" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="6" />
-          <entry key="java" value="878" />
+          <entry key="dummy" value="17" />
+          <entry key="java" value="886" />
           <entry key="md" value="217" />
-          <entry key="xml" value="302" />
+          <entry key="xml" value="313" />
           <entry key="yml" value="295" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="878" />
+          <entry key="JAVA" value="886" />
           <entry key="Markdown" value="217" />
-          <entry key="PLAIN_TEXT" value="6" />
-          <entry key="XML" value="302" />
+          <entry key="PLAIN_TEXT" value="17" />
+          <entry key="XML" value="313" />
           <entry key="YAML" value="295" />
         </counts>
       </usages-collector>
@@ -96,53 +102,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/ILoadBalancer.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/BaseLoadBalancer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="30" column="30" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#2620#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/AbstractLoadBalancer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="35" column="42" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="42" />
-              <folding>
-                <element signature="e#1444#1445#0" expanded="true" />
-                <element signature="e#1482#1483#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/ZoneAwareLoadBalancer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="112" selection-start-line="112" selection-end-line="112" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/LoadBalancerContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="485" column="17" lean-forward="true" selection-start-line="485" selection-start-column="17" selection-end-line="485" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/reactive/LoadBalancerCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="187" selection-start-line="187" selection-end-line="187" />
+            <state relative-caret-position="38">
+              <caret line="59" column="29" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -150,30 +113,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/DynamicServerListLoadBalancer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="45" column="72" lean-forward="true" selection-start-line="45" selection-start-column="72" selection-end-line="45" selection-end-column="72" />
+            <state relative-caret-position="418">
+              <caret line="52" column="41" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/BaseLoadBalancer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="754" selection-start-line="754" selection-end-line="754" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.0.RELEASE/spring-cloud-commons-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerAutoConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="113" column="59" lean-forward="true" selection-start-line="113" selection-start-column="59" selection-end-line="113" selection-end-column="59" />
-              <folding>
-                <element signature="e#0#5065#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/Feign的工作原理.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="38">
+                <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -181,22 +134,372 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="53" column="68" selection-start-line="53" selection-start-column="58" selection-end-line="53" selection-end-column="68" />
+            <state relative-caret-position="308">
+              <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="37" column="44" lean-forward="true" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/RandomRule.java">
+        <entry file="file://$PROJECT_DIR$/gateway/src/main/java/personal/nathan/ZuulGateway.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="323">
+              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
               <folding>
-                <element signature="e#0#2796#0" expanded="true" />
-                <element signature="e#2631#2632#0" expanded="true" />
-                <element signature="e#2675#2676#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/ServerList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-741">
+              <caret line="28" column="19" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/ribbon/loadbalancer.uml">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>com.netflix.loadbalancer</OriginalElement>
+              <nodes>
+                <node x="639.0" y="665.0">com.netflix.loadbalancer.AbstractLoadBalancerRule</node>
+                <node x="234.0" y="825.0">com.netflix.loadbalancer.WeightedResponseTimeRule</node>
+                <node x="860.0" y="1370.0">com.netflix.loadbalancer.ServerStats</node>
+                <node x="236.0" y="1215.0">com.netflix.loadbalancer.ServerStatusChangeListener</node>
+                <node x="205.5" y="350.0">com.netflix.loadbalancer.AbstractServerListFilter</node>
+                <node x="41.5" y="1140.0">com.netflix.loadbalancer.DummyPing</node>
+                <node x="490.0" y="1215.0">com.netflix.loadbalancer.ServerListChangeListener</node>
+                <node x="474.0" y="1060.0">com.netflix.loadbalancer.NoOpPing</node>
+                <node x="788.75" y="745.0">com.netflix.loadbalancer.RetryRule</node>
+                <node x="865.75" y="160.0">com.netflix.loadbalancer.BaseLoadBalancer</node>
+                <node x="19.5" y="1215.0">com.netflix.loadbalancer.ServerListUpdater</node>
+                <node x="376.16666666666674" y="430.0">com.netflix.loadbalancer.ZoneAffinityServerListFilter</node>
+                <node x="628.0" y="1060.0">com.netflix.loadbalancer.ZoneAffinityPredicate</node>
+                <node x="325.5" y="160.0">com.netflix.loadbalancer.NoOpLoadBalancer</node>
+                <node x="364.0" y="1060.0">com.netflix.loadbalancer.PingUrl</node>
+                <node x="0.0" y="825.0">com.netflix.loadbalancer.ResponseTimeWeightedRule</node>
+                <node x="508.5" y="160.0">com.netflix.loadbalancer.Server</node>
+                <node x="769.25" y="270.0">com.netflix.loadbalancer.DynamicServerListLoadBalancer</node>
+                <node x="33.5" y="350.0">com.netflix.loadbalancer.AbstractServerList</node>
+                <node x="651.0" y="825.0">com.netflix.loadbalancer.BestAvailableRule</node>
+                <node x="728.0" y="1215.0">com.netflix.loadbalancer.LoadBalancerContext</node>
+                <node x="176.0" y="1370.0">com.netflix.loadbalancer.reactive</node>
+                <node x="0.0" y="430.0">com.netflix.loadbalancer.ConfigurationBasedServerList</node>
+                <node x="1029.0" y="1060.0">com.netflix.loadbalancer.AvailabilityPredicate</node>
+                <node x="307.0" y="980.0">com.netflix.loadbalancer.IPing</node>
+                <node x="364.0" y="905.0">com.netflix.loadbalancer.AvailabilityFilteringRule</node>
+                <node x="522.0" y="1370.0">com.netflix.loadbalancer.IPingStrategy</node>
+                <node x="700.5" y="585.0">com.netflix.loadbalancer.IRule</node>
+                <node x="351.0" y="1370.0">com.netflix.loadbalancer.InterruptTask</node>
+                <node x="643.25" y="270.0">com.netflix.loadbalancer.ZoneStats</node>
+                <node x="179.77083333333337" y="745.0">com.netflix.loadbalancer.RoundRobinRule</node>
+                <node x="911.75" y="745.0">com.netflix.loadbalancer.RandomRule</node>
+                <node x="419.75" y="270.0">com.netflix.loadbalancer.LoadBalancerBuilder</node>
+                <node x="267.75" y="270.0">com.netflix.loadbalancer.ServerListFilter</node>
+                <node x="1212.0" y="1060.0">com.netflix.loadbalancer.CompositePredicate</node>
+                <node x="0.0" y="1295.0">com.netflix.loadbalancer.PollingServerListUpdater</node>
+                <node x="692.0" y="1370.0">com.netflix.loadbalancer.PredicateKey</node>
+                <node x="564.0" y="905.0">com.netflix.loadbalancer.ZoneAvoidanceRule</node>
+                <node x="594.4166666666667" y="0.0">com.netflix.loadbalancer.ILoadBalancer</node>
+                <node x="1145.0" y="1215.0">com.netflix.loadbalancer.LoadBalancerStats</node>
+                <node x="944.0" y="1215.0">com.netflix.loadbalancer.ServerComparator</node>
+                <node x="818.0" y="1060.0">com.netflix.loadbalancer.ZoneAvoidancePredicate</node>
+                <node x="220.0" y="1060.0">com.netflix.loadbalancer.PingConstant</node>
+                <node x="572.4166666666667" y="80.0">com.netflix.loadbalancer.AbstractLoadBalancer</node>
+                <node x="506.75" y="745.0">com.netflix.loadbalancer.ClientConfigEnabledRoundRobinRule</node>
+                <node x="726.0" y="350.0">com.netflix.loadbalancer.ZoneAwareLoadBalancer</node>
+                <node x="0.0" y="1370.0">com.netflix.loadbalancer.ZoneSnapshot</node>
+                <node x="445.91666666666674" y="510.0">com.netflix.loadbalancer.ServerListSubsetFilter</node>
+                <node x="0.0" y="1060.0">com.netflix.loadbalancer.AbstractLoadBalancerPing</node>
+                <node x="26.25" y="270.0">com.netflix.loadbalancer.ServerList</node>
+                <node x="468.0" y="825.0">com.netflix.loadbalancer.PredicateBasedRule</node>
+                <node x="918.5" y="980.0">com.netflix.loadbalancer.AbstractServerPredicate</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="com.netflix.loadbalancer.ZoneAwareLoadBalancer" target="com.netflix.loadbalancer.Server">
+                  <point x="-48.0" y="-15.0" />
+                  <point x="774.0" y="325.0" />
+                  <point x="758.75" y="325.0" />
+                  <point x="758.75" y="220.0" />
+                  <point x="580.75" y="220.0" />
+                  <point x="29.75" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.ConfigurationBasedServerList" target="com.netflix.loadbalancer.AbstractServerList">
+                  <point x="0.0" y="-15.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.BestAvailableRule" target="com.netflix.loadbalancer.ClientConfigEnabledRoundRobinRule">
+                  <point x="0.0" y="-15.0" />
+                  <point x="726.0" y="800.0" />
+                  <point x="703.25" y="800.0" />
+                  <point x="65.5" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.WeightedResponseTimeRule" target="com.netflix.loadbalancer.RoundRobinRule">
+                  <point x="0.0" y="-15.0" />
+                  <point x="341.0" y="800.0" />
+                  <point x="288.52083333333337" y="800.0" />
+                  <point x="36.25" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.AbstractLoadBalancerRule" target="com.netflix.loadbalancer.IRule">
+                  <point x="0.0" y="-15.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.DynamicServerListLoadBalancer" target="com.netflix.loadbalancer.Server">
+                  <point x="-58.0" y="-15.0" />
+                  <point x="827.25" y="210.0" />
+                  <point x="589.25" y="210.0" />
+                  <point x="38.25" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.NoOpLoadBalancer" target="com.netflix.loadbalancer.AbstractLoadBalancer">
+                  <point x="0.0" y="-15.0" />
+                  <point x="407.0" y="135.0" />
+                  <point x="616.1666666666667" y="135.0" />
+                  <point x="-43.75" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.PingConstant" target="com.netflix.loadbalancer.IPing">
+                  <point x="0.0" y="-15.0" />
+                  <point x="282.0" y="1040.0" />
+                  <point x="335.875" y="1040.0" />
+                  <point x="-9.625" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.ZoneStats" target="com.netflix.loadbalancer.Server">
+                  <point x="0.0" y="-15.0" />
+                  <point x="695.75" y="230.0" />
+                  <point x="572.25" y="230.0" />
+                  <point x="21.25" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.LoadBalancerBuilder" target="com.netflix.loadbalancer.Server">
+                  <point x="0.0" y="-15.0" />
+                  <point x="503.75" y="250.0" />
+                  <point x="546.75" y="250.0" />
+                  <point x="-4.25" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.RetryRule" target="com.netflix.loadbalancer.AbstractLoadBalancerRule">
+                  <point x="0.0" y="-15.0" />
+                  <point x="840.25" y="725.0" />
+                  <point x="764.0" y="725.0" />
+                  <point x="25.0" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.AvailabilityFilteringRule" target="com.netflix.loadbalancer.PredicateBasedRule">
+                  <point x="0.0" y="-15.0" />
+                  <point x="454.0" y="880.0" />
+                  <point x="508.75" y="880.0" />
+                  <point x="-40.75" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.ServerListSubsetFilter" target="com.netflix.loadbalancer.ZoneAffinityServerListFilter">
+                  <point x="-42.75" y="-15.0" />
+                  <point x="488.66666666666674" y="485.0" />
+                  <point x="476.16666666666674" y="485.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.ZoneAffinityServerListFilter" target="com.netflix.loadbalancer.AbstractServerListFilter">
+                  <point x="-50.0" y="-15.0" />
+                  <point x="426.16666666666674" y="405.0" />
+                  <point x="295.5" y="405.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.ZoneAffinityServerListFilter" target="com.netflix.loadbalancer.Server">
+                  <point x="50.0" y="-15.0" />
+                  <point x="526.1666666666667" y="405.0" />
+                  <point x="598.25" y="405.0" />
+                  <point x="598.25" y="250.0" />
+                  <point x="555.25" y="250.0" />
+                  <point x="4.25" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.ZoneAvoidancePredicate" target="com.netflix.loadbalancer.AbstractServerPredicate">
+                  <point x="0.0" y="-15.0" />
+                  <point x="913.5" y="1040.0" />
+                  <point x="988.625" y="1040.0" />
+                  <point x="-23.375" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.AvailabilityPredicate" target="com.netflix.loadbalancer.AbstractServerPredicate">
+                  <point x="0.0" y="-15.0" />
+                  <point x="1110.5" y="1040.0" />
+                  <point x="1035.375" y="1040.0" />
+                  <point x="23.375" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.NoOpPing" target="com.netflix.loadbalancer.IPing">
+                  <point x="0.0" y="-15.0" />
+                  <point x="528.5" y="1030.0" />
+                  <point x="374.375" y="1030.0" />
+                  <point x="28.875" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.AbstractServerList" target="com.netflix.loadbalancer.Server">
+                  <point x="38.0" y="-15.0" />
+                  <point x="147.5" y="325.0" />
+                  <point x="140.75" y="325.0" />
+                  <point x="140.75" y="220.0" />
+                  <point x="521.25" y="220.0" />
+                  <point x="-29.75" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.PredicateBasedRule" target="com.netflix.loadbalancer.ClientConfigEnabledRoundRobinRule">
+                  <point x="0.0" y="-15.0" />
+                  <point x="549.5" y="800.0" />
+                  <point x="572.25" y="800.0" />
+                  <point x="-65.5" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.ZoneAwareLoadBalancer" target="com.netflix.loadbalancer.DynamicServerListLoadBalancer">
+                  <point x="48.0" y="-15.0" />
+                  <point x="870.0" y="325.0" />
+                  <point x="885.25" y="325.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.AbstractServerList" target="com.netflix.loadbalancer.ServerList">
+                  <point x="-38.0" y="-15.0" />
+                  <point x="71.5" y="325.0" />
+                  <point x="78.25" y="325.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.AbstractLoadBalancer" target="com.netflix.loadbalancer.ILoadBalancer">
+                  <point x="0.0" y="-15.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.PingUrl" target="com.netflix.loadbalancer.IPing">
+                  <point x="0.0" y="-15.0" />
+                  <point x="409.0" y="1040.0" />
+                  <point x="355.125" y="1040.0" />
+                  <point x="9.625" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.ResponseTimeWeightedRule" target="com.netflix.loadbalancer.RoundRobinRule">
+                  <point x="0.0" y="-15.0" />
+                  <point x="107.0" y="800.0" />
+                  <point x="216.02083333333337" y="800.0" />
+                  <point x="-36.25" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.AbstractLoadBalancerPing" target="com.netflix.loadbalancer.IPing">
+                  <point x="0.0" y="-15.0" />
+                  <point x="100.0" y="1030.0" />
+                  <point x="316.625" y="1030.0" />
+                  <point x="-28.875" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.ServerListSubsetFilter" target="com.netflix.loadbalancer.Server">
+                  <point x="42.75" y="-15.0" />
+                  <point x="574.1666666666667" y="485.0" />
+                  <point x="632.75" y="485.0" />
+                  <point x="632.75" y="240.0" />
+                  <point x="563.75" y="240.0" />
+                  <point x="12.75" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.CompositePredicate" target="com.netflix.loadbalancer.AbstractServerPredicate">
+                  <point x="0.0" y="-15.0" />
+                  <point x="1294.5" y="1030.0" />
+                  <point x="1082.125" y="1030.0" />
+                  <point x="70.125" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.DynamicServerListLoadBalancer" target="com.netflix.loadbalancer.BaseLoadBalancer">
+                  <point x="58.0" y="-15.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.ServerListFilter" target="com.netflix.loadbalancer.Server">
+                  <point x="0.0" y="-15.0" />
+                  <point x="333.75" y="240.0" />
+                  <point x="538.25" y="240.0" />
+                  <point x="-12.75" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.PollingServerListUpdater" target="com.netflix.loadbalancer.ServerListUpdater">
+                  <point x="0.0" y="-15.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.RoundRobinRule" target="com.netflix.loadbalancer.AbstractLoadBalancerRule">
+                  <point x="0.0" y="-15.0" />
+                  <point x="252.27083333333337" y="715.0" />
+                  <point x="664.0" y="715.0" />
+                  <point x="-75.0" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.ZoneAvoidanceRule" target="com.netflix.loadbalancer.PredicateBasedRule">
+                  <point x="0.0" y="-15.0" />
+                  <point x="645.0" y="880.0" />
+                  <point x="590.25" y="880.0" />
+                  <point x="40.75" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.AbstractServerListFilter" target="com.netflix.loadbalancer.Server">
+                  <point x="-45.0" y="-15.0" />
+                  <point x="250.5" y="325.0" />
+                  <point x="257.25" y="325.0" />
+                  <point x="257.25" y="230.0" />
+                  <point x="529.75" y="230.0" />
+                  <point x="-21.25" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.ServerList" target="com.netflix.loadbalancer.Server">
+                  <point x="0.0" y="-15.0" />
+                  <point x="78.25" y="210.0" />
+                  <point x="512.75" y="210.0" />
+                  <point x="-38.25" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.RandomRule" target="com.netflix.loadbalancer.AbstractLoadBalancerRule">
+                  <point x="0.0" y="-15.0" />
+                  <point x="972.75" y="715.0" />
+                  <point x="814.0" y="715.0" />
+                  <point x="75.0" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.DummyPing" target="com.netflix.loadbalancer.AbstractLoadBalancerPing">
+                  <point x="0.0" y="-15.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.AbstractServerListFilter" target="com.netflix.loadbalancer.ServerListFilter">
+                  <point x="45.0" y="-15.0" />
+                  <point x="340.5" y="325.0" />
+                  <point x="333.75" y="325.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.BaseLoadBalancer" target="com.netflix.loadbalancer.AbstractLoadBalancer">
+                  <point x="0.0" y="-15.0" />
+                  <point x="943.25" y="135.0" />
+                  <point x="703.6666666666667" y="135.0" />
+                  <point x="43.75" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.ClientConfigEnabledRoundRobinRule" target="com.netflix.loadbalancer.AbstractLoadBalancerRule">
+                  <point x="0.0" y="-15.0" />
+                  <point x="637.75" y="725.0" />
+                  <point x="714.0" y="725.0" />
+                  <point x="-25.0" y="15.0" />
+                </edge>
+                <edge source="com.netflix.loadbalancer.ZoneAffinityPredicate" target="com.netflix.loadbalancer.AbstractServerPredicate">
+                  <point x="0.0" y="-15.0" />
+                  <point x="713.0" y="1030.0" />
+                  <point x="941.875" y="1030.0" />
+                  <point x="-70.125" y="15.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.9661971830985914" x="157.37463556851299" y="708.396501457726" />
+              <SelectedNodes />
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -253,7 +556,6 @@
         <option value="$PROJECT_DIR$/eureka/src/main/resources/application-peer2.yml" />
         <option value="$PROJECT_DIR$/eureka/src/main/resources/application-peer3.yml" />
         <option value="$PROJECT_DIR$/eureka/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/gateway/src/main/java/personal/nathan/Gateway.java" />
         <option value="$PROJECT_DIR$/consumer/src/main/java/nathan/HelloClient.java" />
         <option value="$PROJECT_DIR$/consumer/src/main/java/nathan/HystrixClient.java" />
         <option value="$PROJECT_DIR$/consumer/src/main/resources/Feign的工作原理.md" />
@@ -273,9 +575,11 @@
         <option value="$PROJECT_DIR$/service-protocol/src/main/java/personal/nathan/provider/hello/domain/User.java" />
         <option value="$PROJECT_DIR$/consumer/src/main/java/personal/nathan/inteceptor/FeignTokenInterceptor.java" />
         <option value="$PROJECT_DIR$/consumer/src/main/java/personal/nathan/inteceptor/FeignRequestInterceptor.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/consumer/src/main/resources/ribbon核心.md" />
         <option value="$PROJECT_DIR$/consumer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway/src/main/java/personal/nathan/Gateway.java" />
+        <option value="$PROJECT_DIR$/gateway/src/main/java/personal/nathan/ZuulGateway.java" />
       </list>
     </option>
   </component>
@@ -400,47 +704,54 @@
             <path>
               <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-study" type="462c0819:PsiDirectoryNode" />
-              <item name="service-protocol" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbon" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-study" type="462c0819:PsiDirectoryNode" />
-              <item name="service-protocol" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-study" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-study" type="462c0819:PsiDirectoryNode" />
-              <item name="service-protocol" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-study" type="462c0819:PsiDirectoryNode" />
-              <item name="service-protocol" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-study" type="462c0819:PsiDirectoryNode" />
-              <item name="service-protocol" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hello" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-study" type="462c0819:PsiDirectoryNode" />
-              <item name="service-protocol" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hello" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-study" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nathan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-study" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -458,8 +769,8 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553690967468" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-cloud-code" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553742882382" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/consumer/src/main/resources/ribbon" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -468,17 +779,20 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\develop\spring-cloud-study\consumer\src\main\resources\ribbon" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="personal.nathan.inteceptor" />
       <recent name="personal.nathan.provider.hello.domain" />
       <recent name="personal.nathan" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\develop\spring-cloud-study\consumer\src\main\resources\ribbon" />
       <recent name="D:\develop\spring-cloud-study\eureka\src\main\resources" />
       <recent name="D:\develop\spring-cloud-study\demoService\src\main\resources" />
       <recent name="$PROJECT_DIR$/demoService/src/main/resources" />
       <recent name="$PROJECT_DIR$/gateway" />
-      <recent name="$PROJECT_DIR$/gateway/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -493,7 +807,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Consumer">
+  <component name="RunManager" selected="Spring Boot.Gateway">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -528,8 +842,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Gateway" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personal.nathan.Gateway" />
+    <configuration name="ZuulGateway" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="personal.nathan.ZuulGateway" />
       <module name="gateway" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -577,7 +891,7 @@
     </configuration>
     <configuration name="Gateway" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="gateway" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="personal.nathan.Gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="personal.nathan.ZuulGateway" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -604,14 +918,14 @@
       <item itemvalue="Spring Boot.Gateway" />
       <item itemvalue="Spring Boot.DemoServiceApp" />
       <item itemvalue="Application.EurekaServer" />
-      <item itemvalue="Application.Gateway" />
+      <item itemvalue="Application.ZuulGateway" />
       <item itemvalue="Application.DemoServiceApp" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.EurekaServer" />
         <item itemvalue="Application.DemoServiceApp" />
-        <item itemvalue="Application.Gateway" />
+        <item itemvalue="Application.ZuulGateway" />
       </list>
     </recent_temporary>
   </component>
@@ -646,7 +960,7 @@
       <workItem from="1542528121431" duration="3163000" />
       <workItem from="1553479486105" duration="36448000" />
       <workItem from="1553651923709" duration="9300000" />
-      <workItem from="1553683263667" duration="5849000" />
+      <workItem from="1553683263667" duration="11203000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1533313989832</created>
@@ -683,17 +997,24 @@
       <option name="project" value="LOCAL" />
       <updated>1553683297765</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update">
+      <created>1553691024798</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1553691024798</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94977000" />
+    <option name="totallyTimeSpent" value="100331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="85" y="-8" width="1843" height="1216" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22490185" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1817162" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -704,7 +1025,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32938075" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32747456" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.31637374" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.31637374" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -721,7 +1042,7 @@
       <window_info anchor="right" id="PlantUML" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.17162086" />
+      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.17162086" />
       <window_info anchor="right" id="Database" order="7" weight="0.3299712" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -783,66 +1104,10 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demoService/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/src/main/resources/application-peer1.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/src/main/resources/application-peer2.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/src/main/resources/application-peer3.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/10.1.0/feign-core-10.1.0.jar!/feign/RequestTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1140">
-          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/10.1.0/feign-core-10.1.0.jar!/feign/Feign.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-513">
           <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/personal/nathan/Gateway.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -892,6 +1157,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
           <caret line="251" column="13" selection-start-line="251" selection-start-column="13" selection-end-line="251" selection-end-column="13" />
+          <folding>
+            <element signature="e#8628#8629#0" expanded="true" />
+            <element signature="e#8680#8681#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1040,65 +1309,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-protocol/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="46" column="67" selection-start-line="46" selection-start-column="67" selection-end-line="46" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/Feign的工作原理.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="38">
-            <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/ribbon核心.md">
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/ribbon/ribbon核心.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="19">
             <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/ILoadBalancer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#2620#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/AbstractLoadBalancer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="35" column="42" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="42" />
-          <folding>
-            <element signature="e#1444#1445#0" expanded="true" />
-            <element signature="e#1482#1483#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/DynamicServerListLoadBalancer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="45" column="72" lean-forward="true" selection-start-line="45" selection-start-column="72" selection-end-line="45" selection-end-column="72" />
         </state>
       </provider>
     </entry>
@@ -1113,17 +1330,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/application.yml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-ribbon/2.1.0.RELEASE/spring-cloud-netflix-ribbon-2.1.0.RELEASE.jar!/org/springframework/cloud/netflix/ribbon/RibbonClientConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="53" column="68" selection-start-line="53" selection-start-column="58" selection-end-line="53" selection-end-column="68" />
+        <state relative-caret-position="456">
+          <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#7009#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/BaseLoadBalancer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-ribbon/2.1.0.RELEASE/spring-cloud-netflix-ribbon-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/RibbonClientConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="754" selection-start-line="754" selection-end-line="754" />
+        <state relative-caret-position="392">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-protocol/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1136,26 +1363,744 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/LoadBalancerContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="485" column="17" lean-forward="true" selection-start-line="485" selection-start-column="17" selection-end-line="485" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/reactive/LoadBalancerCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="187" selection-start-line="187" selection-end-line="187" />
+        <state relative-caret-position="267">
+          <caret line="482" selection-start-line="482" selection-end-line="482" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/RandomRule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="164">
           <caret line="38" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="e#0#2796#0" expanded="true" />
             <element signature="e#2631#2632#0" expanded="true" />
             <element signature="e#2675#2676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/AbstractLoadBalancer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="35" column="63" selection-start-line="35" selection-start-column="63" selection-end-line="35" selection-end-column="63" />
+          <folding>
+            <element signature="e#1444#1445#0" expanded="true" />
+            <element signature="e#1482#1483#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/ILoadBalancer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#2620#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/reactive/LoadBalancerCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2717">
+          <caret line="187" selection-start-line="187" selection-end-line="187" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.netflix.loadbalancer">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.netflix.loadbalancer</OriginalElement>
+          <nodes>
+            <node x="639.0" y="665.0">com.netflix.loadbalancer.AbstractLoadBalancerRule</node>
+            <node x="234.0" y="825.0">com.netflix.loadbalancer.WeightedResponseTimeRule</node>
+            <node x="860.0" y="1370.0">com.netflix.loadbalancer.ServerStats</node>
+            <node x="236.0" y="1215.0">com.netflix.loadbalancer.ServerStatusChangeListener</node>
+            <node x="205.5" y="350.0">com.netflix.loadbalancer.AbstractServerListFilter</node>
+            <node x="41.5" y="1140.0">com.netflix.loadbalancer.DummyPing</node>
+            <node x="490.0" y="1215.0">com.netflix.loadbalancer.ServerListChangeListener</node>
+            <node x="474.0" y="1060.0">com.netflix.loadbalancer.NoOpPing</node>
+            <node x="788.75" y="745.0">com.netflix.loadbalancer.RetryRule</node>
+            <node x="865.75" y="160.0">com.netflix.loadbalancer.BaseLoadBalancer</node>
+            <node x="19.5" y="1215.0">com.netflix.loadbalancer.ServerListUpdater</node>
+            <node x="376.16666666666674" y="430.0">com.netflix.loadbalancer.ZoneAffinityServerListFilter</node>
+            <node x="628.0" y="1060.0">com.netflix.loadbalancer.ZoneAffinityPredicate</node>
+            <node x="325.5" y="160.0">com.netflix.loadbalancer.NoOpLoadBalancer</node>
+            <node x="364.0" y="1060.0">com.netflix.loadbalancer.PingUrl</node>
+            <node x="0.0" y="825.0">com.netflix.loadbalancer.ResponseTimeWeightedRule</node>
+            <node x="508.5" y="160.0">com.netflix.loadbalancer.Server</node>
+            <node x="769.25" y="270.0">com.netflix.loadbalancer.DynamicServerListLoadBalancer</node>
+            <node x="33.5" y="350.0">com.netflix.loadbalancer.AbstractServerList</node>
+            <node x="651.0" y="825.0">com.netflix.loadbalancer.BestAvailableRule</node>
+            <node x="728.0" y="1215.0">com.netflix.loadbalancer.LoadBalancerContext</node>
+            <node x="176.0" y="1370.0">com.netflix.loadbalancer.reactive</node>
+            <node x="0.0" y="430.0">com.netflix.loadbalancer.ConfigurationBasedServerList</node>
+            <node x="1029.0" y="1060.0">com.netflix.loadbalancer.AvailabilityPredicate</node>
+            <node x="307.0" y="980.0">com.netflix.loadbalancer.IPing</node>
+            <node x="364.0" y="905.0">com.netflix.loadbalancer.AvailabilityFilteringRule</node>
+            <node x="522.0" y="1370.0">com.netflix.loadbalancer.IPingStrategy</node>
+            <node x="700.5" y="585.0">com.netflix.loadbalancer.IRule</node>
+            <node x="351.0" y="1370.0">com.netflix.loadbalancer.InterruptTask</node>
+            <node x="643.25" y="270.0">com.netflix.loadbalancer.ZoneStats</node>
+            <node x="179.77083333333337" y="745.0">com.netflix.loadbalancer.RoundRobinRule</node>
+            <node x="911.75" y="745.0">com.netflix.loadbalancer.RandomRule</node>
+            <node x="419.75" y="270.0">com.netflix.loadbalancer.LoadBalancerBuilder</node>
+            <node x="267.75" y="270.0">com.netflix.loadbalancer.ServerListFilter</node>
+            <node x="1212.0" y="1060.0">com.netflix.loadbalancer.CompositePredicate</node>
+            <node x="0.0" y="1295.0">com.netflix.loadbalancer.PollingServerListUpdater</node>
+            <node x="692.0" y="1370.0">com.netflix.loadbalancer.PredicateKey</node>
+            <node x="564.0" y="905.0">com.netflix.loadbalancer.ZoneAvoidanceRule</node>
+            <node x="594.4166666666667" y="0.0">com.netflix.loadbalancer.ILoadBalancer</node>
+            <node x="1145.0" y="1215.0">com.netflix.loadbalancer.LoadBalancerStats</node>
+            <node x="944.0" y="1215.0">com.netflix.loadbalancer.ServerComparator</node>
+            <node x="818.0" y="1060.0">com.netflix.loadbalancer.ZoneAvoidancePredicate</node>
+            <node x="220.0" y="1060.0">com.netflix.loadbalancer.PingConstant</node>
+            <node x="572.4166666666667" y="80.0">com.netflix.loadbalancer.AbstractLoadBalancer</node>
+            <node x="506.75" y="745.0">com.netflix.loadbalancer.ClientConfigEnabledRoundRobinRule</node>
+            <node x="726.0" y="350.0">com.netflix.loadbalancer.ZoneAwareLoadBalancer</node>
+            <node x="0.0" y="1370.0">com.netflix.loadbalancer.ZoneSnapshot</node>
+            <node x="445.91666666666674" y="510.0">com.netflix.loadbalancer.ServerListSubsetFilter</node>
+            <node x="0.0" y="1060.0">com.netflix.loadbalancer.AbstractLoadBalancerPing</node>
+            <node x="26.25" y="270.0">com.netflix.loadbalancer.ServerList</node>
+            <node x="468.0" y="825.0">com.netflix.loadbalancer.PredicateBasedRule</node>
+            <node x="918.5" y="980.0">com.netflix.loadbalancer.AbstractServerPredicate</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.netflix.loadbalancer.ZoneAwareLoadBalancer" target="com.netflix.loadbalancer.Server">
+              <point x="-48.0" y="-15.0" />
+              <point x="774.0" y="325.0" />
+              <point x="758.75" y="325.0" />
+              <point x="758.75" y="220.0" />
+              <point x="580.75" y="220.0" />
+              <point x="29.75" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.ConfigurationBasedServerList" target="com.netflix.loadbalancer.AbstractServerList">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.BestAvailableRule" target="com.netflix.loadbalancer.ClientConfigEnabledRoundRobinRule">
+              <point x="0.0" y="-15.0" />
+              <point x="726.0" y="800.0" />
+              <point x="703.25" y="800.0" />
+              <point x="65.5" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.WeightedResponseTimeRule" target="com.netflix.loadbalancer.RoundRobinRule">
+              <point x="0.0" y="-15.0" />
+              <point x="341.0" y="800.0" />
+              <point x="288.52083333333337" y="800.0" />
+              <point x="36.25" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.AbstractLoadBalancerRule" target="com.netflix.loadbalancer.IRule">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.DynamicServerListLoadBalancer" target="com.netflix.loadbalancer.Server">
+              <point x="-58.0" y="-15.0" />
+              <point x="827.25" y="210.0" />
+              <point x="589.25" y="210.0" />
+              <point x="38.25" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.NoOpLoadBalancer" target="com.netflix.loadbalancer.AbstractLoadBalancer">
+              <point x="0.0" y="-15.0" />
+              <point x="407.0" y="135.0" />
+              <point x="616.1666666666667" y="135.0" />
+              <point x="-43.75" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.PingConstant" target="com.netflix.loadbalancer.IPing">
+              <point x="0.0" y="-15.0" />
+              <point x="282.0" y="1040.0" />
+              <point x="335.875" y="1040.0" />
+              <point x="-9.625" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.ZoneStats" target="com.netflix.loadbalancer.Server">
+              <point x="0.0" y="-15.0" />
+              <point x="695.75" y="230.0" />
+              <point x="572.25" y="230.0" />
+              <point x="21.25" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.LoadBalancerBuilder" target="com.netflix.loadbalancer.Server">
+              <point x="0.0" y="-15.0" />
+              <point x="503.75" y="250.0" />
+              <point x="546.75" y="250.0" />
+              <point x="-4.25" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.RetryRule" target="com.netflix.loadbalancer.AbstractLoadBalancerRule">
+              <point x="0.0" y="-15.0" />
+              <point x="840.25" y="725.0" />
+              <point x="764.0" y="725.0" />
+              <point x="25.0" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.AvailabilityFilteringRule" target="com.netflix.loadbalancer.PredicateBasedRule">
+              <point x="0.0" y="-15.0" />
+              <point x="454.0" y="880.0" />
+              <point x="508.75" y="880.0" />
+              <point x="-40.75" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.ServerListSubsetFilter" target="com.netflix.loadbalancer.ZoneAffinityServerListFilter">
+              <point x="-42.75" y="-15.0" />
+              <point x="488.66666666666674" y="485.0" />
+              <point x="476.16666666666674" y="485.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.ZoneAffinityServerListFilter" target="com.netflix.loadbalancer.AbstractServerListFilter">
+              <point x="-50.0" y="-15.0" />
+              <point x="426.16666666666674" y="405.0" />
+              <point x="295.5" y="405.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.ZoneAffinityServerListFilter" target="com.netflix.loadbalancer.Server">
+              <point x="50.0" y="-15.0" />
+              <point x="526.1666666666667" y="405.0" />
+              <point x="598.25" y="405.0" />
+              <point x="598.25" y="250.0" />
+              <point x="555.25" y="250.0" />
+              <point x="4.25" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.ZoneAvoidancePredicate" target="com.netflix.loadbalancer.AbstractServerPredicate">
+              <point x="0.0" y="-15.0" />
+              <point x="913.5" y="1040.0" />
+              <point x="988.625" y="1040.0" />
+              <point x="-23.375" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.AvailabilityPredicate" target="com.netflix.loadbalancer.AbstractServerPredicate">
+              <point x="0.0" y="-15.0" />
+              <point x="1110.5" y="1040.0" />
+              <point x="1035.375" y="1040.0" />
+              <point x="23.375" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.NoOpPing" target="com.netflix.loadbalancer.IPing">
+              <point x="0.0" y="-15.0" />
+              <point x="528.5" y="1030.0" />
+              <point x="374.375" y="1030.0" />
+              <point x="28.875" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.AbstractServerList" target="com.netflix.loadbalancer.Server">
+              <point x="38.0" y="-15.0" />
+              <point x="147.5" y="325.0" />
+              <point x="140.75" y="325.0" />
+              <point x="140.75" y="220.0" />
+              <point x="521.25" y="220.0" />
+              <point x="-29.75" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.PredicateBasedRule" target="com.netflix.loadbalancer.ClientConfigEnabledRoundRobinRule">
+              <point x="0.0" y="-15.0" />
+              <point x="549.5" y="800.0" />
+              <point x="572.25" y="800.0" />
+              <point x="-65.5" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.ZoneAwareLoadBalancer" target="com.netflix.loadbalancer.DynamicServerListLoadBalancer">
+              <point x="48.0" y="-15.0" />
+              <point x="870.0" y="325.0" />
+              <point x="885.25" y="325.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.AbstractServerList" target="com.netflix.loadbalancer.ServerList">
+              <point x="-38.0" y="-15.0" />
+              <point x="71.5" y="325.0" />
+              <point x="78.25" y="325.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.AbstractLoadBalancer" target="com.netflix.loadbalancer.ILoadBalancer">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.PingUrl" target="com.netflix.loadbalancer.IPing">
+              <point x="0.0" y="-15.0" />
+              <point x="409.0" y="1040.0" />
+              <point x="355.125" y="1040.0" />
+              <point x="9.625" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.ResponseTimeWeightedRule" target="com.netflix.loadbalancer.RoundRobinRule">
+              <point x="0.0" y="-15.0" />
+              <point x="107.0" y="800.0" />
+              <point x="216.02083333333337" y="800.0" />
+              <point x="-36.25" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.AbstractLoadBalancerPing" target="com.netflix.loadbalancer.IPing">
+              <point x="0.0" y="-15.0" />
+              <point x="100.0" y="1030.0" />
+              <point x="316.625" y="1030.0" />
+              <point x="-28.875" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.ServerListSubsetFilter" target="com.netflix.loadbalancer.Server">
+              <point x="42.75" y="-15.0" />
+              <point x="574.1666666666667" y="485.0" />
+              <point x="632.75" y="485.0" />
+              <point x="632.75" y="240.0" />
+              <point x="563.75" y="240.0" />
+              <point x="12.75" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.CompositePredicate" target="com.netflix.loadbalancer.AbstractServerPredicate">
+              <point x="0.0" y="-15.0" />
+              <point x="1294.5" y="1030.0" />
+              <point x="1082.125" y="1030.0" />
+              <point x="70.125" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.DynamicServerListLoadBalancer" target="com.netflix.loadbalancer.BaseLoadBalancer">
+              <point x="58.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.ServerListFilter" target="com.netflix.loadbalancer.Server">
+              <point x="0.0" y="-15.0" />
+              <point x="333.75" y="240.0" />
+              <point x="538.25" y="240.0" />
+              <point x="-12.75" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.PollingServerListUpdater" target="com.netflix.loadbalancer.ServerListUpdater">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.RoundRobinRule" target="com.netflix.loadbalancer.AbstractLoadBalancerRule">
+              <point x="0.0" y="-15.0" />
+              <point x="252.27083333333337" y="715.0" />
+              <point x="664.0" y="715.0" />
+              <point x="-75.0" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.ZoneAvoidanceRule" target="com.netflix.loadbalancer.PredicateBasedRule">
+              <point x="0.0" y="-15.0" />
+              <point x="645.0" y="880.0" />
+              <point x="590.25" y="880.0" />
+              <point x="40.75" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.AbstractServerListFilter" target="com.netflix.loadbalancer.Server">
+              <point x="-45.0" y="-15.0" />
+              <point x="250.5" y="325.0" />
+              <point x="257.25" y="325.0" />
+              <point x="257.25" y="230.0" />
+              <point x="529.75" y="230.0" />
+              <point x="-21.25" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.ServerList" target="com.netflix.loadbalancer.Server">
+              <point x="0.0" y="-15.0" />
+              <point x="78.25" y="210.0" />
+              <point x="512.75" y="210.0" />
+              <point x="-38.25" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.RandomRule" target="com.netflix.loadbalancer.AbstractLoadBalancerRule">
+              <point x="0.0" y="-15.0" />
+              <point x="972.75" y="715.0" />
+              <point x="814.0" y="715.0" />
+              <point x="75.0" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.DummyPing" target="com.netflix.loadbalancer.AbstractLoadBalancerPing">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.AbstractServerListFilter" target="com.netflix.loadbalancer.ServerListFilter">
+              <point x="45.0" y="-15.0" />
+              <point x="340.5" y="325.0" />
+              <point x="333.75" y="325.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.BaseLoadBalancer" target="com.netflix.loadbalancer.AbstractLoadBalancer">
+              <point x="0.0" y="-15.0" />
+              <point x="943.25" y="135.0" />
+              <point x="703.6666666666667" y="135.0" />
+              <point x="43.75" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.ClientConfigEnabledRoundRobinRule" target="com.netflix.loadbalancer.AbstractLoadBalancerRule">
+              <point x="0.0" y="-15.0" />
+              <point x="637.75" y="725.0" />
+              <point x="714.0" y="725.0" />
+              <point x="-25.0" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.ZoneAffinityPredicate" target="com.netflix.loadbalancer.AbstractServerPredicate">
+              <point x="0.0" y="-15.0" />
+              <point x="713.0" y="1030.0" />
+              <point x="941.875" y="1030.0" />
+              <point x="-70.125" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9661971830985914" x="157.396501457726" y="228.396501457726" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/ServerList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-741">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/ribbon/loadbalancer.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.netflix.loadbalancer</OriginalElement>
+          <nodes>
+            <node x="639.0" y="665.0">com.netflix.loadbalancer.AbstractLoadBalancerRule</node>
+            <node x="234.0" y="825.0">com.netflix.loadbalancer.WeightedResponseTimeRule</node>
+            <node x="860.0" y="1370.0">com.netflix.loadbalancer.ServerStats</node>
+            <node x="236.0" y="1215.0">com.netflix.loadbalancer.ServerStatusChangeListener</node>
+            <node x="205.5" y="350.0">com.netflix.loadbalancer.AbstractServerListFilter</node>
+            <node x="41.5" y="1140.0">com.netflix.loadbalancer.DummyPing</node>
+            <node x="490.0" y="1215.0">com.netflix.loadbalancer.ServerListChangeListener</node>
+            <node x="474.0" y="1060.0">com.netflix.loadbalancer.NoOpPing</node>
+            <node x="788.75" y="745.0">com.netflix.loadbalancer.RetryRule</node>
+            <node x="865.75" y="160.0">com.netflix.loadbalancer.BaseLoadBalancer</node>
+            <node x="19.5" y="1215.0">com.netflix.loadbalancer.ServerListUpdater</node>
+            <node x="376.16666666666674" y="430.0">com.netflix.loadbalancer.ZoneAffinityServerListFilter</node>
+            <node x="628.0" y="1060.0">com.netflix.loadbalancer.ZoneAffinityPredicate</node>
+            <node x="325.5" y="160.0">com.netflix.loadbalancer.NoOpLoadBalancer</node>
+            <node x="364.0" y="1060.0">com.netflix.loadbalancer.PingUrl</node>
+            <node x="0.0" y="825.0">com.netflix.loadbalancer.ResponseTimeWeightedRule</node>
+            <node x="508.5" y="160.0">com.netflix.loadbalancer.Server</node>
+            <node x="769.25" y="270.0">com.netflix.loadbalancer.DynamicServerListLoadBalancer</node>
+            <node x="33.5" y="350.0">com.netflix.loadbalancer.AbstractServerList</node>
+            <node x="651.0" y="825.0">com.netflix.loadbalancer.BestAvailableRule</node>
+            <node x="728.0" y="1215.0">com.netflix.loadbalancer.LoadBalancerContext</node>
+            <node x="176.0" y="1370.0">com.netflix.loadbalancer.reactive</node>
+            <node x="0.0" y="430.0">com.netflix.loadbalancer.ConfigurationBasedServerList</node>
+            <node x="1029.0" y="1060.0">com.netflix.loadbalancer.AvailabilityPredicate</node>
+            <node x="307.0" y="980.0">com.netflix.loadbalancer.IPing</node>
+            <node x="364.0" y="905.0">com.netflix.loadbalancer.AvailabilityFilteringRule</node>
+            <node x="522.0" y="1370.0">com.netflix.loadbalancer.IPingStrategy</node>
+            <node x="700.5" y="585.0">com.netflix.loadbalancer.IRule</node>
+            <node x="351.0" y="1370.0">com.netflix.loadbalancer.InterruptTask</node>
+            <node x="643.25" y="270.0">com.netflix.loadbalancer.ZoneStats</node>
+            <node x="179.77083333333337" y="745.0">com.netflix.loadbalancer.RoundRobinRule</node>
+            <node x="911.75" y="745.0">com.netflix.loadbalancer.RandomRule</node>
+            <node x="419.75" y="270.0">com.netflix.loadbalancer.LoadBalancerBuilder</node>
+            <node x="267.75" y="270.0">com.netflix.loadbalancer.ServerListFilter</node>
+            <node x="1212.0" y="1060.0">com.netflix.loadbalancer.CompositePredicate</node>
+            <node x="0.0" y="1295.0">com.netflix.loadbalancer.PollingServerListUpdater</node>
+            <node x="692.0" y="1370.0">com.netflix.loadbalancer.PredicateKey</node>
+            <node x="564.0" y="905.0">com.netflix.loadbalancer.ZoneAvoidanceRule</node>
+            <node x="594.4166666666667" y="0.0">com.netflix.loadbalancer.ILoadBalancer</node>
+            <node x="1145.0" y="1215.0">com.netflix.loadbalancer.LoadBalancerStats</node>
+            <node x="944.0" y="1215.0">com.netflix.loadbalancer.ServerComparator</node>
+            <node x="818.0" y="1060.0">com.netflix.loadbalancer.ZoneAvoidancePredicate</node>
+            <node x="220.0" y="1060.0">com.netflix.loadbalancer.PingConstant</node>
+            <node x="572.4166666666667" y="80.0">com.netflix.loadbalancer.AbstractLoadBalancer</node>
+            <node x="506.75" y="745.0">com.netflix.loadbalancer.ClientConfigEnabledRoundRobinRule</node>
+            <node x="726.0" y="350.0">com.netflix.loadbalancer.ZoneAwareLoadBalancer</node>
+            <node x="0.0" y="1370.0">com.netflix.loadbalancer.ZoneSnapshot</node>
+            <node x="445.91666666666674" y="510.0">com.netflix.loadbalancer.ServerListSubsetFilter</node>
+            <node x="0.0" y="1060.0">com.netflix.loadbalancer.AbstractLoadBalancerPing</node>
+            <node x="26.25" y="270.0">com.netflix.loadbalancer.ServerList</node>
+            <node x="468.0" y="825.0">com.netflix.loadbalancer.PredicateBasedRule</node>
+            <node x="918.5" y="980.0">com.netflix.loadbalancer.AbstractServerPredicate</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.netflix.loadbalancer.ZoneAwareLoadBalancer" target="com.netflix.loadbalancer.Server">
+              <point x="-48.0" y="-15.0" />
+              <point x="774.0" y="325.0" />
+              <point x="758.75" y="325.0" />
+              <point x="758.75" y="220.0" />
+              <point x="580.75" y="220.0" />
+              <point x="29.75" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.ConfigurationBasedServerList" target="com.netflix.loadbalancer.AbstractServerList">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.BestAvailableRule" target="com.netflix.loadbalancer.ClientConfigEnabledRoundRobinRule">
+              <point x="0.0" y="-15.0" />
+              <point x="726.0" y="800.0" />
+              <point x="703.25" y="800.0" />
+              <point x="65.5" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.WeightedResponseTimeRule" target="com.netflix.loadbalancer.RoundRobinRule">
+              <point x="0.0" y="-15.0" />
+              <point x="341.0" y="800.0" />
+              <point x="288.52083333333337" y="800.0" />
+              <point x="36.25" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.AbstractLoadBalancerRule" target="com.netflix.loadbalancer.IRule">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.DynamicServerListLoadBalancer" target="com.netflix.loadbalancer.Server">
+              <point x="-58.0" y="-15.0" />
+              <point x="827.25" y="210.0" />
+              <point x="589.25" y="210.0" />
+              <point x="38.25" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.NoOpLoadBalancer" target="com.netflix.loadbalancer.AbstractLoadBalancer">
+              <point x="0.0" y="-15.0" />
+              <point x="407.0" y="135.0" />
+              <point x="616.1666666666667" y="135.0" />
+              <point x="-43.75" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.PingConstant" target="com.netflix.loadbalancer.IPing">
+              <point x="0.0" y="-15.0" />
+              <point x="282.0" y="1040.0" />
+              <point x="335.875" y="1040.0" />
+              <point x="-9.625" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.ZoneStats" target="com.netflix.loadbalancer.Server">
+              <point x="0.0" y="-15.0" />
+              <point x="695.75" y="230.0" />
+              <point x="572.25" y="230.0" />
+              <point x="21.25" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.LoadBalancerBuilder" target="com.netflix.loadbalancer.Server">
+              <point x="0.0" y="-15.0" />
+              <point x="503.75" y="250.0" />
+              <point x="546.75" y="250.0" />
+              <point x="-4.25" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.RetryRule" target="com.netflix.loadbalancer.AbstractLoadBalancerRule">
+              <point x="0.0" y="-15.0" />
+              <point x="840.25" y="725.0" />
+              <point x="764.0" y="725.0" />
+              <point x="25.0" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.AvailabilityFilteringRule" target="com.netflix.loadbalancer.PredicateBasedRule">
+              <point x="0.0" y="-15.0" />
+              <point x="454.0" y="880.0" />
+              <point x="508.75" y="880.0" />
+              <point x="-40.75" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.ServerListSubsetFilter" target="com.netflix.loadbalancer.ZoneAffinityServerListFilter">
+              <point x="-42.75" y="-15.0" />
+              <point x="488.66666666666674" y="485.0" />
+              <point x="476.16666666666674" y="485.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.ZoneAffinityServerListFilter" target="com.netflix.loadbalancer.AbstractServerListFilter">
+              <point x="-50.0" y="-15.0" />
+              <point x="426.16666666666674" y="405.0" />
+              <point x="295.5" y="405.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.ZoneAffinityServerListFilter" target="com.netflix.loadbalancer.Server">
+              <point x="50.0" y="-15.0" />
+              <point x="526.1666666666667" y="405.0" />
+              <point x="598.25" y="405.0" />
+              <point x="598.25" y="250.0" />
+              <point x="555.25" y="250.0" />
+              <point x="4.25" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.ZoneAvoidancePredicate" target="com.netflix.loadbalancer.AbstractServerPredicate">
+              <point x="0.0" y="-15.0" />
+              <point x="913.5" y="1040.0" />
+              <point x="988.625" y="1040.0" />
+              <point x="-23.375" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.AvailabilityPredicate" target="com.netflix.loadbalancer.AbstractServerPredicate">
+              <point x="0.0" y="-15.0" />
+              <point x="1110.5" y="1040.0" />
+              <point x="1035.375" y="1040.0" />
+              <point x="23.375" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.NoOpPing" target="com.netflix.loadbalancer.IPing">
+              <point x="0.0" y="-15.0" />
+              <point x="528.5" y="1030.0" />
+              <point x="374.375" y="1030.0" />
+              <point x="28.875" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.AbstractServerList" target="com.netflix.loadbalancer.Server">
+              <point x="38.0" y="-15.0" />
+              <point x="147.5" y="325.0" />
+              <point x="140.75" y="325.0" />
+              <point x="140.75" y="220.0" />
+              <point x="521.25" y="220.0" />
+              <point x="-29.75" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.PredicateBasedRule" target="com.netflix.loadbalancer.ClientConfigEnabledRoundRobinRule">
+              <point x="0.0" y="-15.0" />
+              <point x="549.5" y="800.0" />
+              <point x="572.25" y="800.0" />
+              <point x="-65.5" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.ZoneAwareLoadBalancer" target="com.netflix.loadbalancer.DynamicServerListLoadBalancer">
+              <point x="48.0" y="-15.0" />
+              <point x="870.0" y="325.0" />
+              <point x="885.25" y="325.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.AbstractServerList" target="com.netflix.loadbalancer.ServerList">
+              <point x="-38.0" y="-15.0" />
+              <point x="71.5" y="325.0" />
+              <point x="78.25" y="325.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.AbstractLoadBalancer" target="com.netflix.loadbalancer.ILoadBalancer">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.PingUrl" target="com.netflix.loadbalancer.IPing">
+              <point x="0.0" y="-15.0" />
+              <point x="409.0" y="1040.0" />
+              <point x="355.125" y="1040.0" />
+              <point x="9.625" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.ResponseTimeWeightedRule" target="com.netflix.loadbalancer.RoundRobinRule">
+              <point x="0.0" y="-15.0" />
+              <point x="107.0" y="800.0" />
+              <point x="216.02083333333337" y="800.0" />
+              <point x="-36.25" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.AbstractLoadBalancerPing" target="com.netflix.loadbalancer.IPing">
+              <point x="0.0" y="-15.0" />
+              <point x="100.0" y="1030.0" />
+              <point x="316.625" y="1030.0" />
+              <point x="-28.875" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.ServerListSubsetFilter" target="com.netflix.loadbalancer.Server">
+              <point x="42.75" y="-15.0" />
+              <point x="574.1666666666667" y="485.0" />
+              <point x="632.75" y="485.0" />
+              <point x="632.75" y="240.0" />
+              <point x="563.75" y="240.0" />
+              <point x="12.75" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.CompositePredicate" target="com.netflix.loadbalancer.AbstractServerPredicate">
+              <point x="0.0" y="-15.0" />
+              <point x="1294.5" y="1030.0" />
+              <point x="1082.125" y="1030.0" />
+              <point x="70.125" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.DynamicServerListLoadBalancer" target="com.netflix.loadbalancer.BaseLoadBalancer">
+              <point x="58.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.ServerListFilter" target="com.netflix.loadbalancer.Server">
+              <point x="0.0" y="-15.0" />
+              <point x="333.75" y="240.0" />
+              <point x="538.25" y="240.0" />
+              <point x="-12.75" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.PollingServerListUpdater" target="com.netflix.loadbalancer.ServerListUpdater">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.RoundRobinRule" target="com.netflix.loadbalancer.AbstractLoadBalancerRule">
+              <point x="0.0" y="-15.0" />
+              <point x="252.27083333333337" y="715.0" />
+              <point x="664.0" y="715.0" />
+              <point x="-75.0" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.ZoneAvoidanceRule" target="com.netflix.loadbalancer.PredicateBasedRule">
+              <point x="0.0" y="-15.0" />
+              <point x="645.0" y="880.0" />
+              <point x="590.25" y="880.0" />
+              <point x="40.75" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.AbstractServerListFilter" target="com.netflix.loadbalancer.Server">
+              <point x="-45.0" y="-15.0" />
+              <point x="250.5" y="325.0" />
+              <point x="257.25" y="325.0" />
+              <point x="257.25" y="230.0" />
+              <point x="529.75" y="230.0" />
+              <point x="-21.25" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.ServerList" target="com.netflix.loadbalancer.Server">
+              <point x="0.0" y="-15.0" />
+              <point x="78.25" y="210.0" />
+              <point x="512.75" y="210.0" />
+              <point x="-38.25" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.RandomRule" target="com.netflix.loadbalancer.AbstractLoadBalancerRule">
+              <point x="0.0" y="-15.0" />
+              <point x="972.75" y="715.0" />
+              <point x="814.0" y="715.0" />
+              <point x="75.0" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.DummyPing" target="com.netflix.loadbalancer.AbstractLoadBalancerPing">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.AbstractServerListFilter" target="com.netflix.loadbalancer.ServerListFilter">
+              <point x="45.0" y="-15.0" />
+              <point x="340.5" y="325.0" />
+              <point x="333.75" y="325.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.BaseLoadBalancer" target="com.netflix.loadbalancer.AbstractLoadBalancer">
+              <point x="0.0" y="-15.0" />
+              <point x="943.25" y="135.0" />
+              <point x="703.6666666666667" y="135.0" />
+              <point x="43.75" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.ClientConfigEnabledRoundRobinRule" target="com.netflix.loadbalancer.AbstractLoadBalancerRule">
+              <point x="0.0" y="-15.0" />
+              <point x="637.75" y="725.0" />
+              <point x="714.0" y="725.0" />
+              <point x="-25.0" y="15.0" />
+            </edge>
+            <edge source="com.netflix.loadbalancer.ZoneAffinityPredicate" target="com.netflix.loadbalancer.AbstractServerPredicate">
+              <point x="0.0" y="-15.0" />
+              <point x="713.0" y="1030.0" />
+              <point x="941.875" y="1030.0" />
+              <point x="-70.125" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9661971830985914" x="157.37463556851299" y="708.396501457726" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/BaseLoadBalancer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="59" column="29" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/DynamicServerListLoadBalancer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="52" column="41" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/Feign的工作原理.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="38">
+            <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="37" column="44" lean-forward="true" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/personal/nathan/ZuulGateway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
