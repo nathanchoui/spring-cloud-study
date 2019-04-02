@@ -9,13 +9,12 @@
         <module name="consumer" />
         <module name="demoService" />
         <module name="eureka" />
-        <module name="gateway" />
         <module name="provider" />
         <module name="service-protocol" />
+        <module name="spring-cloud-gateway" />
+        <module name="zuul-gateway" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="ServiceProtocol" target="1.8" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8" />
   </component>
 </project>
