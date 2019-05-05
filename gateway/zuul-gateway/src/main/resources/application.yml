@@ -17,6 +17,11 @@ zuul:
     provider:
       path: /provider/** # 1、/** 匹配任意数量的字符和路径 2、/* 匹配任意数量的字符 3、/? 匹配单个字符
       url: http://localhost:9001/
+  # 禁用filter语法
+  # zuul.<SimpleClassName>.<filterType>.disable=true
+  SendErrorFilter:
+    error:
+      disable: true
 #      serviceId: provider
 #  retryable: true # 开启重试
 #  add-host-header: true #解决重定向问题
@@ -28,4 +33,13 @@ zuul:
 #ribbon:
 #  eureka:
 #    enabled: false #禁止ribbon使用eureka负载均衡
+gateway:
+  groovy:
+    pollingIntervalSeconds: 20 #扫面groovy文件间隔
+    directories:
+    - D:\develop\projects\study-space\groovy #指定groovy目录
+
+security:
+  basic:
+    enabled: false
 
