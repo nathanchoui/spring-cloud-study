@@ -16,6 +16,7 @@
         <module>gateway/spring-cloud-gateway</module>
         <module>demoService</module>
         <module>service-protocol</module>
+        <module>auth-server</module>
     </modules>
 
     <parent>
