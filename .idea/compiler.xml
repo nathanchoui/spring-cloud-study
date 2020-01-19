@@ -10,8 +10,10 @@
         <module name="consumer" />
         <module name="demoService" />
         <module name="eureka" />
+        <module name="order" />
         <module name="provider" />
         <module name="service-protocol" />
+        <module name="south-sky-gate" />
         <module name="spring-cloud-gateway" />
         <module name="zuul-gateway" />
       </profile>

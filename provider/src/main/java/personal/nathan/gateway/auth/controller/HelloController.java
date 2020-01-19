@@ -8,6 +8,7 @@ import personal.nathan.gateway.auth.provider.hello.domain.User;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
+import java.util.Enumeration;
 import java.util.Optional;
 import java.util.concurrent.TimeUnit;
 
@@ -46,6 +47,10 @@ public class HelloController implements HelloService {
     @PostMapping("/test")
     public String postTest(HttpServletRequest request) {
         try {
+            Enumeration<String> headers = request.getHeaderNames();
+            while (headers.hasMoreElements()) {
+                System.out.println(headers.nextElement());
+            }
             String res = IOUtils.toString(request.getInputStream(), "UTF-8");
             return res;
         } catch (IOException e) {

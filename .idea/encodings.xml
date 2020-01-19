@@ -6,8 +6,10 @@
     <file url="file://$PROJECT_DIR$/consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demoService" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway/south-sky-gate" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gateway/spring-cloud-gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gateway/zuul-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-protocol" charset="UTF-8" />
   </component>
