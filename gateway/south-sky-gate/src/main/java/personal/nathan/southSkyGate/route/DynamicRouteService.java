@@ -45,7 +45,6 @@ public class DynamicRouteService implements ApplicationEventPublisherAware {
         }
     }
 
-    public void update() {}
 
     public void delete() {}
 

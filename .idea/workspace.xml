@@ -2,23 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8af10678-bd7a-4d77-874e-92239c10763d" name="Default" comment="update">
-      <change afterPath="$PROJECT_DIR$/gateway/south-sky-gate/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/south-sky-gate/src/main/java/personal/nathan/southSkyGate/SpringCloudGateway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/south-sky-gate/src/main/java/personal/nathan/southSkyGate/model/GatewayFilterDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/south-sky-gate/src/main/java/personal/nathan/southSkyGate/model/GatewayPredicateDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/south-sky-gate/src/main/java/personal/nathan/southSkyGate/model/GatewayRouteDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/south-sky-gate/src/main/java/personal/nathan/southSkyGate/route/DynamicRouteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/south-sky-gate/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/hello/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/hello/GreetingHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/hello/GreetingRouter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/hello/GreetingWebClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/spring-cloud-gateway/src/main/java/personal/nathan/PreFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/spring-cloud-gateway/src/main/java/personal/nathan/SensitiveFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/spring-cloud-gateway/src/test/java/personal/nathan/SensitiveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/hello/FeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/personal/nathan/gateway/auth/controller/FeignService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/south-sky-gate/src/main/java/personal/nathan/southSkyGate/route/DynamicRouteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/south-sky-gate/src/main/java/personal/nathan/southSkyGate/route/DynamicRouteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/spring-cloud-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/spring-cloud-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/spring-cloud-gateway/src/main/java/personal/nathan/SpringCloudGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/spring-cloud-gateway/src/main/java/personal/nathan/SpringCloudGateway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/spring-cloud-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/spring-cloud-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider/src/main/java/personal/nathan/gateway/auth/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/personal/nathan/gateway/auth/controller/HelloController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -60,33 +57,41 @@
     <session id="-796826966">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="41" />
-          <entry key="project.open.time.10" value="5" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.closed" value="59" />
+          <entry key="project.open.time.10" value="6" />
+          <entry key="project.open.time.117" value="1" />
+          <entry key="project.open.time.12" value="3" />
           <entry key="project.open.time.136" value="1" />
-          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.14" value="4" />
           <entry key="project.open.time.15" value="2" />
-          <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.16" value="3" />
+          <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.19" value="4" />
           <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.21" value="4" />
+          <entry key="project.open.time.21" value="5" />
+          <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.28" value="1" />
-          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.29" value="2" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.60" value="1" />
           <entry key="project.open.time.65" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.71" value="1" />
-          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="44" />
+          <entry key="project.opened" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -97,54 +102,54 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="MF" value="1" />
-          <entry key="class" value="41" />
+          <entry key="class" value="56" />
           <entry key="gitignore" value="2" />
           <entry key="groovy" value="6" />
-          <entry key="java" value="164" />
-          <entry key="json" value="1" />
+          <entry key="java" value="207" />
+          <entry key="json" value="2" />
           <entry key="loadbalancer" value="1" />
           <entry key="md" value="8" />
           <entry key="pom" value="1" />
-          <entry key="properties" value="1" />
+          <entry key="properties" value="2" />
           <entry key="txt" value="2" />
           <entry key="uml" value="1" />
-          <entry key="xml" value="52" />
-          <entry key="yml" value="39" />
+          <entry key="xml" value="59" />
+          <entry key="yml" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="41" />
+          <entry key="CLASS" value="56" />
           <entry key="Groovy" value="6" />
-          <entry key="JAVA" value="164" />
-          <entry key="JSON" value="1" />
+          <entry key="JAVA" value="207" />
+          <entry key="JSON" value="2" />
           <entry key="Manifest" value="1" />
           <entry key="Markdown" value="8" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Properties" value="1" />
+          <entry key="Properties" value="2" />
           <entry key="UML" value="2" />
-          <entry key="XML" value="53" />
-          <entry key="YAML" value="39" />
+          <entry key="XML" value="60" />
+          <entry key="YAML" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="37" />
           <entry key="groovy" value="397" />
-          <entry key="java" value="3405" />
+          <entry key="java" value="4189" />
           <entry key="md" value="442" />
-          <entry key="xml" value="535" />
-          <entry key="yml" value="899" />
+          <entry key="xml" value="543" />
+          <entry key="yml" value="954" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="397" />
-          <entry key="JAVA" value="3405" />
+          <entry key="JAVA" value="4189" />
           <entry key="Markdown" value="442" />
           <entry key="PLAIN_TEXT" value="37" />
-          <entry key="XML" value="535" />
-          <entry key="YAML" value="899" />
+          <entry key="XML" value="543" />
+          <entry key="YAML" value="954" />
         </counts>
       </usages-collector>
     </session>
@@ -152,103 +157,97 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.3.1.RELEASE/reactor-core-3.3.1.RELEASE-sources.jar!/reactor/core/publisher/Mono.java">
+        <entry file="file://$PROJECT_DIR$/gateway/south-sky-gate/src/main/java/personal/nathan/southSkyGate/SpringCloudGateway.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="3942" column="46" selection-start-line="3942" selection-start-column="46" selection-end-line="3942" selection-end-column="46" />
+            <state relative-caret-position="361">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/order/pom.xml">
+        <entry file="file://$PROJECT_DIR$/gateway/spring-cloud-gateway/src/main/java/personal/nathan/SensitiveFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/order/src/main/java/hello/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="205">
+              <caret line="29" column="53" lean-forward="true" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/order/src/main/java/hello/GreetingHandler.java">
+        <entry file="file://$PROJECT_DIR$/gateway/south-sky-gate/src/main/java/personal/nathan/southSkyGate/route/DynamicRouteService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="282">
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.0.RELEASE/spring-cloud-gateway-core-2.2.0.RELEASE.jar!/org/springframework/cloud/gateway/route/builder/BooleanSpec.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gateway/spring-cloud-gateway/src/main/java/personal/nathan/PreFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/order/src/main/java/hello/GreetingRouter.java">
+        <entry file="file://$PROJECT_DIR$/gateway/spring-cloud-gateway/src/main/java/personal/nathan/SpringCloudGateway.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            <state relative-caret-position="361">
+              <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/order/src/main/java/hello/GreetingWebClient.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.0.RELEASE/spring-cloud-gateway-core-2.2.0.RELEASE.jar!/org/springframework/cloud/gateway/route/RouteLocator.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="e#488#489#0" expanded="true" />
-                <element signature="e#578#579#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="114">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gateway/south-sky-gate/src/main/java/personal/nathan/southSkyGate/model/GatewayPredicateDefinition.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.0.RELEASE/spring-cloud-gateway-core-2.2.0.RELEASE.jar!/org/springframework/cloud/gateway/route/CachingRouteLocator.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="114">
+              <caret line="17" column="56" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gateway/south-sky-gate/src/main/java/personal/nathan/southSkyGate/SpringCloudGateway.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.0.RELEASE/spring-cloud-gateway-core-2.2.0.RELEASE.jar!/org/springframework/cloud/gateway/route/RouteDefinitionRouteLocator.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="209">
+              <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE-sources.jar!/org/springframework/core/Ordered.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gateway/zuul-gateway/src/main/java/personal/nathan/gateway/common/ZuulFilterConstants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="760">
+              <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -266,6 +265,9 @@
     <findStrings>
       <find>NFLoadBalancerRuleClassName</find>
       <find>lom</find>
+      <find>getProperties()</find>
+      <find>lang</find>
+      <find>AnnotationAutoConfiguration</find>
     </findStrings>
     <dirStrings>
       <dir>D:\develop\spring-cloud-study</dir>
@@ -282,15 +284,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/zuul-gateway/pom.xml" />
-        <option value="$PROJECT_DIR$/gateway/pom.xml" />
-        <option value="$PROJECT_DIR$/consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/demoService/pom.xml" />
-        <option value="$PROJECT_DIR$/gateway/spring-cloud-gateway/src/main/java/personal/nathan/RouteConfig.java" />
-        <option value="$PROJECT_DIR$/gateway/spring-cloud-gateway/pom.xml" />
-        <option value="$PROJECT_DIR$/provider/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/provider/src/main/java/personal/nathan/Provider.java" />
-        <option value="$PROJECT_DIR$/gateway/zuul-gateway/src/main/java/personal/nathan/common/ZuulInstants.java" />
         <option value="$PROJECT_DIR$/gateway/zuul-gateway/src/main/java/personal/nathan/filter/pre/LogFilter.java" />
         <option value="$PROJECT_DIR$/gateway/zuul-gateway/src/main/java/personal/nathan/common/ZuulConstants.java" />
         <option value="$PROJECT_DIR$/gateway/zuul-gateway/src/main/java/personal/nathan/filter/pre/FirstFilter.java" />
@@ -303,14 +296,12 @@
         <option value="$PROJECT_DIR$/gateway/zuul-gateway/README.md" />
         <option value="$PROJECT_DIR$/gateway/zuul-gateway/src/main/java/personal/nathan/SercurityConfig.java" />
         <option value="$PROJECT_DIR$/gateway/zuul-gateway/src/main/java/personal/nathan/security/SercurityConfig.java" />
-        <option value="$PROJECT_DIR$/provider/pom.xml" />
         <option value="$PROJECT_DIR$/service-protocol/pom.xml" />
         <option value="$PROJECT_DIR$/service-protocol/src/main/java/personal/nathan/provider/hello/HelloService.java" />
         <option value="$PROJECT_DIR$/provider/src/main/java/personal/nathan/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/gateway/zuul-gateway/src/main/java/personal/nathan/security/OAuthConfiguration.java" />
         <option value="$PROJECT_DIR$/auth-server/src/main/java/personal/nathan/OAuthConfiguration.java" />
         <option value="$PROJECT_DIR$/auth-server/src/main/java/personal/nathan/auth/OAuthConfiguration.java" />
-        <option value="$PROJECT_DIR$/gateway/spring-cloud-gateway/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/auth-server/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/gateway/zuul-gateway/src/main/java/personal/nathan/auth/filter/pre/SecondFilter.java" />
         <option value="$PROJECT_DIR$/gateway/zuul-gateway/src/main/java/personal/nathan/ZuulGateway.java" />
@@ -322,17 +313,28 @@
         <option value="$PROJECT_DIR$/gateway/zuul-gateway/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/gateway/zuul-gateway/src/main/java/personal/nathan/gateway/security/SercurityConfig.java" />
         <option value="$PROJECT_DIR$/gateway/zuul-gateway/pom.xml" />
-        <option value="$PROJECT_DIR$/gateway/spring-cloud-gateway/src/main/java/personal/nathan/SpringCloudGateway.java" />
-        <option value="$PROJECT_DIR$/provider/src/main/java/personal/nathan/gateway/auth/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/gateway/south-sky-gate/src/main/java/personal/nathan/southSkyGate/SpringCloudGateway.java" />
         <option value="$PROJECT_DIR$/gateway/south-sky-gate/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/gateway/south-sky-gate/src/main/java/personal/nathan/southSkyGate/model/GatewayPredicateDefinition.java" />
         <option value="$PROJECT_DIR$/gateway/south-sky-gate/src/main/java/personal/nathan/southSkyGate/model/GatewayRouteDefinition.java" />
         <option value="$PROJECT_DIR$/gateway/south-sky-gate/src/main/java/personal/nathan/southSkyGate/model/GatewayFilterDefinition.java" />
-        <option value="$PROJECT_DIR$/gateway/south-sky-gate/src/main/java/personal/nathan/southSkyGate/route/DynamicRouteService.java" />
-        <option value="$PROJECT_DIR$/order/pom.xml" />
         <option value="$PROJECT_DIR$/order/src/main/java/hello/GreetingRouter.java" />
+        <option value="$PROJECT_DIR$/order/pom.xml" />
+        <option value="$PROJECT_DIR$/order/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/provider/pom.xml" />
+        <option value="$PROJECT_DIR$/provider/src/main/java/personal/nathan/gateway/auth/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/order/src/main/java/FeignService.java" />
+        <option value="$PROJECT_DIR$/order/src/main/java/hello/FeignService.java" />
+        <option value="$PROJECT_DIR$/provider/src/main/java/personal/nathan/gateway/auth/controller/FeignService.java" />
+        <option value="$PROJECT_DIR$/gateway/spring-cloud-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/gateway/spring-cloud-gateway/src/main/java/personal/nathan/PreFilter.java" />
+        <option value="$PROJECT_DIR$/gateway/spring-cloud-gateway/src/main/java/personal/nathan/SpringCloudGateway.java" />
+        <option value="$PROJECT_DIR$/gateway/spring-cloud-gateway/src/test/java/personal/nathan/personal/nathan.java" />
+        <option value="$PROJECT_DIR$/gateway/spring-cloud-gateway/src/test/java/personal/nathan/nathan.java" />
+        <option value="$PROJECT_DIR$/gateway/spring-cloud-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway/south-sky-gate/src/main/java/personal/nathan/southSkyGate/route/DynamicRouteService.java" />
+        <option value="$PROJECT_DIR$/gateway/spring-cloud-gateway/src/main/java/personal/nathan/SensitiveFilter.java" />
       </list>
     </option>
   </component>
@@ -372,11 +374,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="273" />
-    <option name="y" value="86" />
-    <option name="width" value="1273" />
-    <option name="height" value="883" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="71" />
+    <option name="width" value="1341" />
+    <option name="height" value="1087" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -412,8 +413,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -424,25 +423,34 @@
             <path>
               <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-study" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-study" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-study" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-study" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-study" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -450,16 +458,32 @@
             <path>
               <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-study" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hello" type="462c0819:PsiDirectoryNode" />
+              <item name="nathan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-study" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -486,22 +510,22 @@
     <property name="settings.editor.selected.configurable" value="VisualVMLauncher" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\develop\spring-cloud-study\consumer\src\main\resources\ribbon" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="personal.nathan.gateway.auth.controller" />
+      <recent name="personal.nathan.southSkyGate" />
+      <recent name="personal.nathan" />
+      <recent name="groovy" />
+      <recent name="personal.nathan.inteceptor" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\develop\spring-cloud-study\order\src\main\java" />
       <recent name="D:\develop\spring-cloud-study\gateway\south-sky-gate\src\main\resources" />
       <recent name="D:\develop\spring-cloud-study\auth-server\src\main\resources" />
       <recent name="D:\develop\spring-cloud-study\auth-server\src\main\java\personal\nathan" />
       <recent name="D:\develop\spring-cloud-study\gateway\spring-cloud-gateway" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="personal.nathan.southSkyGate" />
-      <recent name="personal.nathan" />
-      <recent name="groovy" />
-      <recent name="personal.nathan.inteceptor" />
-      <recent name="personal.nathan.provider.hello.domain" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\develop\spring-cloud-study\consumer\src\main\resources\ribbon" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -648,10 +672,10 @@
       <item itemvalue="Spring Boot.Provider" />
       <item itemvalue="Spring Boot.AuthServerApplication" />
       <item itemvalue="Spring Boot.SpringCloudGateway (1)" />
+      <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Application.EurekaServer" />
       <item itemvalue="Application.DemoServiceApp" />
       <item itemvalue="Spring Boot.ZuulGateway" />
-      <item itemvalue="Spring Boot.Application" />
     </list>
     <recent_temporary>
       <list>
@@ -733,6 +757,27 @@
       <workItem from="1578879259886" duration="776000" />
       <workItem from="1579166827655" duration="7249000" />
       <workItem from="1579351147583" duration="1713000" />
+      <workItem from="1579437368801" duration="1062000" />
+      <workItem from="1579486156210" duration="578000" />
+      <workItem from="1579661618449" duration="5014000" />
+      <workItem from="1579750575751" duration="3778000" />
+      <workItem from="1580112103386" duration="2087000" />
+      <workItem from="1580379543125" duration="595000" />
+      <workItem from="1580470129845" duration="2592000" />
+      <workItem from="1580544959250" duration="2340000" />
+      <workItem from="1580647204511" duration="2439000" />
+      <workItem from="1580777936107" duration="2052000" />
+      <workItem from="1580973577992" duration="3810000" />
+      <workItem from="1581327562094" duration="1156000" />
+      <workItem from="1581342977597" duration="218000" />
+      <workItem from="1581391856939" duration="4658000" />
+      <workItem from="1581599643367" duration="2432000" />
+      <workItem from="1581668354553" duration="879000" />
+      <workItem from="1583394546197" duration="21091000" />
+      <workItem from="1584950782162" duration="10731000" />
+      <workItem from="1585192383758" duration="5470000" />
+      <workItem from="1585233146752" duration="1678000" />
+      <workItem from="1585288654067" duration="4345000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1533313989832</created>
@@ -818,17 +863,24 @@
       <option name="project" value="LOCAL" />
       <updated>1560683813839</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update">
+      <created>1579437467444</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1579437467444</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="239007000" />
+    <option name="totallyTimeSpent" value="318012000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
+    <frame x="71" y="0" width="1341" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21447721" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28883684" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -837,30 +889,31 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32938075" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32878152" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3261745" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49943882" weight="0.3381364" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49943882" weight="0.24141519" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32747456" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32668066" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005612" side_tool="true" weight="0.43848288" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32885906" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32751676" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32668066" />
       <window_info anchor="bottom" id="SonarLint" order="14" weight="0.3293247" />
       <window_info anchor="bottom" id="Run with VisualVM" order="15" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="16" />
       <window_info anchor="bottom" id="Docker" order="17" show_stripe_button="false" />
+      <window_info anchor="bottom" id="REST Client" order="18" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.28475797" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="PlantUML" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.2707775" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.2703054" />
       <window_info anchor="right" id="Database" order="7" weight="0.3292857" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -923,6 +976,12 @@
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gateway/spring-cloud-gateway/src/main/java/personal/nathan/SensitiveFilter.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/gateway/spring-cloud-gateway/src/main/java/personal/nathan/SpringCloudGateway.java</url>
           <line>15</line>
@@ -937,208 +996,248 @@
       </configuration>
     </watches-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/service-protocol/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/lettuce/lettuce-core/5.2.1.RELEASE/lettuce-core-5.2.1.RELEASE-sources.jar!/io/lettuce/core/resource/ClientResources.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/ThreadLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+        <state relative-caret-position="703">
+          <caret line="63" column="7" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.1.RELEASE/spring-security-oauth2-2.2.1.RELEASE.jar!/org/springframework/security/oauth2/config/annotation/configurers/ClientDetailsServiceConfigurer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth-server/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth-server/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-902">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demoService/src/main/java/personal/nathan/DemoServiceApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/src/main/java/personal/nathan/EurekaServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/src/main/java/personal/nathan/QueryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/personal/nathan/gateway/auth/OAuthConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/zuul-gateway/src/main/java/personal/nathan/gateway/security/OAuthConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/gateway/zuul-gateway/src/main/resources/groovy/GroovyFilter.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/personal/nathan/gateway/auth/AuthServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/zuul-gateway/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="41" selection-start-line="41" selection-start-column="1" selection-end-line="52" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/zuul-gateway/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="931">
-          <caret line="49" selection-start-line="49" selection-end-line="57" selection-end-column="16" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/zuul-gateway/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="171">
-            <caret line="9" selection-start-line="9" selection-end-line="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/zuul-gateway/src/main/java/personal/nathan/gateway/ZuulGateway.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.28/tomcat-embed-core-8.5.28.jar!/javax/servlet/http/HttpServletRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="42" column="58" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/zuul-gateway/src/main/java/personal/nathan/gateway/GroovyRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/zuul-gateway/src/main/java/personal/nathan/gateway/filter/pre/LogFilter.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/data/redis/RedisProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/zuul-gateway/src/main/java/personal/nathan/gateway/filter/pre/FirstFilter.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.2.3.RELEASE/spring-data-redis-2.2.3.RELEASE-sources.jar!/org/springframework/data/redis/connection/lettuce/LettuceClientConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        <state relative-caret-position="323">
+          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/zuul-gateway/src/main/java/personal/nathan/gateway/filter/pre/SecondFilter.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/lettuce/lettuce-core/5.2.1.RELEASE/lettuce-core-5.2.1.RELEASE-sources.jar!/io/lettuce/core/ClientOptions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        <state relative-caret-position="228">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.0.0.RELEASE/spring-cloud-netflix-zuul-2.0.0.RELEASE.jar!/org/springframework/cloud/netflix/zuul/filters/route/RibbonRoutingFilter.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/data/redis/LettuceConnectionConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1596">
-          <caret line="112" column="28" selection-start-line="112" selection-start-column="28" selection-end-line="112" selection-end-column="28" />
+        <state relative-caret-position="284">
+          <caret line="100" column="5" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1-sources.jar!/com/netflix/zuul/context/RequestContext.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/data/redis/RedisConnectionConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="70" column="46" selection-start-line="70" selection-start-column="46" selection-end-line="70" selection-end-column="46" />
+        <state relative-caret-position="1634">
+          <caret line="112" column="4" selection-start-line="112" selection-start-column="4" selection-end-line="114" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Enumeration.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="77" column="6" selection-start-line="77" selection-start-column="6" selection-end-line="77" selection-end-column="6" />
+        <state relative-caret-position="798">
+          <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demoService/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/data/redis/JedisConnectionConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/data/redis/JedisClientConfigurationBuilderCustomizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="72" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE.jar!/META-INF/spring-autoconfigure-metadata.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8132">
+          <caret line="428" column="127" selection-start-line="428" selection-start-column="116" selection-end-line="428" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/lettuce/lettuce-core/5.2.1.RELEASE/lettuce-core-5.2.1.RELEASE-sources.jar!/io/lettuce/core/RedisClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4085">
+          <caret line="263" column="74" selection-start-line="263" selection-start-column="74" selection-end-line="263" selection-end-column="74" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/provider/src/main/java/personal/nathan/gateway/auth/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="646">
+          <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1392#1393#0" expanded="true" />
-            <element signature="e#1462#1463#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/java/hello/FeignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/java/hello/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/java/hello/GreetingHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/java/hello/GreetingWebClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/java/hello/GreetingRouter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/src/main/java/personal/nathan/gateway/auth/controller/FeignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/data/redis/RedisReactiveAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/data/redis/LettuceClientConfigurationBuilderCustomizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.0.RELEASE/spring-cloud-netflix-ribbon-2.2.0.RELEASE.jar!/META-INF/spring-configuration-metadata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-513" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/spring-cloud-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.0.RELEASE/spring-cloud-gateway-core-2.2.0.RELEASE.jar!/org/springframework/cloud/gateway/route/builder/PredicateSpec.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="92" column="23" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.0.RELEASE/spring-cloud-gateway-core-2.2.0.RELEASE.jar!/org/springframework/cloud/gateway/filter/OrderedGatewayFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.0.RELEASE/spring-cloud-gateway-core-2.2.0.RELEASE.jar!/org/springframework/cloud/gateway/handler/FilteringWebHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.3.1.RELEASE/reactor-core-3.3.1.RELEASE-sources.jar!/reactor/core/publisher/MonoDefer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.0.RELEASE/spring-cloud-gateway-core-2.2.0.RELEASE.jar!/org/springframework/cloud/gateway/filter/NettyRoutingFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE.jar!/org/springframework/web/server/ServerWebExchange.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.2.2.RELEASE/spring-tx-5.2.2.RELEASE.jar!/org/springframework/transaction/annotation/ProxyTransactionManagementConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/spring-cloud-gateway/src/test/java/personal/nathan/SensitiveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/src/main/java/personal/nathan/gateway/auth/Provider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/provider/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="399">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
@@ -1152,171 +1251,124 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gateway/spring-cloud-gateway/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="31" selection-end-column="19" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/spring-cloud-gateway/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/south-sky-gate/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/spring-cloud-gateway/src/main/java/personal/nathan/SpringCloudGateway.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
-          <folding>
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/zuul-gateway/src/main/java/personal/nathan/gateway/security/SercurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/java/personal/nathan/gateway/auth/Provider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/south-sky-gate/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="608">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/gateway/south-sky-gate/src/main/java/personal/nathan/southSkyGate/model/GatewayRouteDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/south-sky-gate/src/main/java/personal/nathan/southSkyGate/model/GatewayFilterDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/south-sky-gate/src/main/java/personal/nathan/southSkyGate/route/DynamicRouteService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="43" column="71" selection-start-line="43" selection-start-column="71" selection-end-line="43" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.3.1.RELEASE/reactor-core-3.3.1.RELEASE.jar!/reactor/core/publisher/Mono.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2033">
-          <caret line="166" column="30" selection-start-line="166" selection-start-column="30" selection-end-line="166" selection-end-column="30" />
+        <state relative-caret-position="361">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gateway/south-sky-gate/src/main/java/personal/nathan/southSkyGate/model/GatewayPredicateDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="247">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/south-sky-gate/src/main/java/personal/nathan/southSkyGate/SpringCloudGateway.java">
+    <entry file="file://$PROJECT_DIR$/gateway/south-sky-gate/src/main/java/personal/nathan/southSkyGate/model/GatewayFilterDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="171">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.2.2.RELEASE/spring-tx-5.2.2.RELEASE-sources.jar!/org/springframework/transaction/annotation/ProxyTransactionManagementConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/zuul-gateway/src/main/java/personal/nathan/gateway/common/ZuulFilterConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="589">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.3.1.RELEASE/reactor-core-3.3.1.RELEASE-sources.jar!/reactor/core/publisher/Mono.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="3942" column="46" selection-start-line="3942" selection-start-column="46" selection-end-line="3942" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order/src/main/java/hello/GreetingWebClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="9158">
+          <caret line="559" column="21" selection-start-line="559" selection-start-column="21" selection-end-line="559" selection-end-column="21" />
           <folding>
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#20833#20834#0" expanded="true" />
+            <element signature="e#20879#20880#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order/src/main/java/hello/Application.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.0.RELEASE/spring-cloud-gateway-core-2.2.0.RELEASE.jar!/org/springframework/cloud/gateway/route/builder/BooleanSpec.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="513">
+          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order/src/main/java/hello/GreetingHandler.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE-sources.jar!/org/springframework/core/Ordered.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="760">
+          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order/src/main/java/hello/GreetingRouter.java">
+    <entry file="file://$PROJECT_DIR$/gateway/south-sky-gate/src/main/java/personal/nathan/southSkyGate/route/DynamicRouteService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        <state relative-caret-position="282">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/south-sky-gate/src/main/java/personal/nathan/southSkyGate/SpringCloudGateway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/spring-cloud-gateway/src/main/java/personal/nathan/PreFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.0.RELEASE/spring-cloud-gateway-core-2.2.0.RELEASE.jar!/org/springframework/cloud/gateway/route/RouteLocator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.0.RELEASE/spring-cloud-gateway-core-2.2.0.RELEASE.jar!/org/springframework/cloud/gateway/route/CachingRouteLocator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="17" column="56" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.0.RELEASE/spring-cloud-gateway-core-2.2.0.RELEASE.jar!/org/springframework/cloud/gateway/route/RouteDefinitionRouteLocator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/spring-cloud-gateway/src/main/java/personal/nathan/SensitiveFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="29" column="53" lean-forward="true" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/spring-cloud-gateway/src/main/java/personal/nathan/SpringCloudGateway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
         </state>
       </provider>
     </entry>

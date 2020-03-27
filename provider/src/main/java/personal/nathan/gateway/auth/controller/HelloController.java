@@ -1,7 +1,7 @@
 package personal.nathan.gateway.auth.controller;
 
 import org.apache.commons.io.IOUtils;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.web.bind.annotation.*;
 import personal.nathan.gateway.auth.provider.hello.HelloService;
 import personal.nathan.gateway.auth.provider.hello.domain.User;

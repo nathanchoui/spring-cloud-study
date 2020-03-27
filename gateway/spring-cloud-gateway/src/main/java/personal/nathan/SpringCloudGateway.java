@@ -18,7 +18,16 @@ public class SpringCloudGateway {
                 //basic proxy
                 .route(r ->r.path("/provider")
                         .uri("http://localhost:9001/greeting/nathan").id("provider_route")
-                ).build();
+                )
+                .route("es", r -> r.path("/elasticsearch/**")
+                        .filters(f -> f.rewritePath("/elasticsearch/(?<segment>.*)", "/$\\{segment}"))
+                        .uri("http://localhost:9200"))
+                .route("test", r -> r.path("/baidu")
+                        .filters(f ->
+                                f.rewritePath("/baidu/(?<segment>.*)", "/$\\{segment}")
+                                .filter(new SensitiveFilter()))
+                        .uri("http://www.baidu.com"))
+                .build();
     }
 
     public static void main(String[] args) {
