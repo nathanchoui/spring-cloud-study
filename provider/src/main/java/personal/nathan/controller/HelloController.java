@@ -1,4 +1,4 @@
-package personal.nathan.gateway.auth.controller;
+package personal.nathan.controller;
 
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;

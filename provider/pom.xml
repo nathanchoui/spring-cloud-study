@@ -34,6 +34,30 @@
             <artifactId>commons-io</artifactId>
             <version>2.6</version>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.cloud</groupId>-->
+<!--            <artifactId>spring-cloud-starter-sleuth</artifactId>-->
+<!--        </dependency>-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-sleuth</artifactId>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-stream-binder-kafka -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-stream-binder-kafka</artifactId>
+        </dependency>
+
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.kafka</groupId>-->
+<!--            <artifactId>spring-kafka</artifactId>-->
+<!--            <version>2.6.0</version>-->
+<!--        </dependency>-->
+
 
     </dependencies>
 

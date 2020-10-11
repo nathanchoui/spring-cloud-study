@@ -1,12 +1,12 @@
-package personal.nathan.gateway.auth.controller;
+package personal.nathan.controller;
 
 import org.springframework.web.bind.annotation.RequestParam;
-import personal.nathan.gateway.auth.remoteInvoke.HelloClient;
 import personal.nathan.gateway.auth.provider.hello.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
+import personal.nathan.remoteInvoke.HelloClient;
 
 @RestController
 public class InvokerController {

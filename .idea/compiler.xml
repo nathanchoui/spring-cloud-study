@@ -6,18 +6,32 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="auth-server" />
         <module name="consumer" />
-        <module name="demoService" />
-        <module name="eureka" />
-        <module name="order" />
-        <module name="provider" />
-        <module name="service-protocol" />
         <module name="south-sky-gate" />
-        <module name="spring-cloud-gateway" />
         <module name="zuul-gateway" />
+        <module name="order" />
+        <module name="eureka" />
+        <module name="demoService" />
+        <module name="service-protocol" />
+        <module name="provider" />
+        <module name="auth-server" />
+        <module name="spring-cloud-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="auth-server" options="-parameters" />
+      <module name="consumer" options="-parameters" />
+      <module name="demoService" options="-parameters" />
+      <module name="eureka" options="-parameters" />
+      <module name="order" options="-parameters" />
+      <module name="provider" options="-parameters" />
+      <module name="service-protocol" options="-parameters" />
+      <module name="south-sky-gate" options="-parameters" />
+      <module name="spring-cloud-gateway" options="-parameters" />
+      <module name="zuul-gateway" options="-parameters" />
+    </option>
   </component>
 </project>

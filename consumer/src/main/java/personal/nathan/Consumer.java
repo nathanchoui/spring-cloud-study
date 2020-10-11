@@ -1,4 +1,4 @@
-package personal.nathan.gateway.auth;
+package personal.nathan;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,7 +7,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
-@EnableCircuitBreaker
+//@EnableCircuitBreaker
 @EnableDiscoveryClient
 @EnableFeignClients(basePackages = "personal.nathan.remoteInvoke")
 public class Consumer {

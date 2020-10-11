@@ -1,4 +1,4 @@
-package personal.nathan.gateway.auth.controller;
+package personal.nathan.controller;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
